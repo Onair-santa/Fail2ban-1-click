@@ -13,7 +13,7 @@ banaction = nftables[type=multiport]
 banaction_allports = nftables[type=allports]
 [sshd]
 enabled = true
-port    = 2222
+port    = 22
 logpath = %(sshd_log)s
 backend = %(sshd_backend)s
 [recidive]
