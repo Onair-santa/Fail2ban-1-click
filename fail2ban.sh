@@ -18,7 +18,7 @@ ext_interface () {
 INTERFACE=$(ext_interface)
 
 echo
-yellow_msg 'Installing & Optimizing Nftables...'
+yellow_msg 'Installing Nftables...'
 echo 
 sleep 0.5
 
