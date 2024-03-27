@@ -1,5 +1,5 @@
-## 📥 Fail2ban-1-click
-### <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>(Debian, Ubuntu) Bash script installs Fail2ban and settings file, and installs nftables to block IP addresses
+## <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>(Debian, Ubuntu) Fail2ban-1-click
+###  Bash script installs Fail2ban and settings file, and installs nftables to block IP addresses
 #### 💠  Ensure that the `sudo` and `wget` packages are installed on your system:
 
 ```
