@@ -1,6 +1,6 @@
 # 📥 Fail2ban-1-click
 ## <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a> Bash script install Fail2ban and config (Debian, Ubuntu)
-#### Ensure that the `sudo` and `wget` packages are installed on your system:
+#### 💠  Ensure that the `sudo` and `wget` packages are installed on your system:
 
 ```
 apt install -y sudo wget
