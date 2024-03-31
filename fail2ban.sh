@@ -91,13 +91,13 @@ clear
 echo "********************************"
 echo "       Fail2Ban + Nftables      "
 echo "********************************" 
-echo -e "${purple}* https://github.com/Onair-santa *${rest}"
+echo -e "${yellow}* https://github.com/Onair-santa *${rest}"
 echo ""
 echo -e "       ${green}Select an option${rest}: ${rest}"
-echo -e "    ${green}1) ${green}Install Nftables+Fail2ban${rest}"
-echo -e "    ${cyan}2) ${cyan}Install Nftables${rest}"
-echo -e "    ${cyan}3) ${cyan}Install Fail2ban${rest}"
-echo -e "    ${red}0) ${red}Exit${rest}"
+echo -e "  ${green}1) ${green}Install Nftables+Fail2ban${rest}"
+echo -e "  ${cyan}2) ${cyan}Install Nftables${rest}"
+echo -e "  ${cyan}3) ${cyan}Install Fail2ban${rest}"
+echo -e "  ${red}0) ${red}Exit${rest}"
 read -p "Enter your choice: " choice
 case "$choice" in
     1)
