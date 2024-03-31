@@ -7,6 +7,14 @@ yellow_msg() {
     tput sgr0
 }
 
+red='\033[0;31m'
+green='\033[0;32m'
+yellow='\033[0;33m'
+purple='\033[0;35m'
+cyan='\033[0;36m'
+white='\033[0;37m'
+rest='\033[0m'
+
 ext_interface () {
     for interface in /sys/class/net/*
     do
@@ -17,6 +25,7 @@ ext_interface () {
 }
 INTERFACE=$(ext_interface)
 
+install_nftables () {
 echo
 yellow_msg 'Installing Nftables...'
 echo 
@@ -55,6 +64,9 @@ echo
 yellow_msg 'NFT is Installed. (Ports 22, 80, 443 is opened)'
 echo 
 sleep 0.5
+}
+
+install_fail2ban () {
 echo
 yellow_msg 'Installing Fail2ban...'
 echo
@@ -71,4 +83,37 @@ sleep 1
 fail2ban-client status
 echo 
 yellow_msg 'Fail2ban installed and work fine'
-echo 
+echo
+}
+
+# Menu
+clear
+echo "********************************"
+echo "       Fail2Ban + Nftables      "
+echo "********************************" 
+echo -e "${purple}By --> * https://github.com/Onair-santa *${rest}"
+echo ""
+echo -e "${green}Select an option${rest}: ${rest}"
+echo -e "${green}1) ${green}Install Nftables+Fail2ban${rest}"
+echo -e "${cyan}2) ${cyan}Install Nftables${rest}"
+echo -e "${cyan}3) ${cyan}Install Fail2ban${rest}"
+echo -e "${red}0) ${red}Exit${rest}"
+read -p "Enter your choice: " choice
+case "$choice" in
+    1)
+        install_nftables
+        install_fail2ban
+        ;;
+    2)
+        install_nftables
+        ;;
+    3)
+        install_fail2ban
+        ;;
+    0)
+        exit
+        ;;
+    *)
+        echo "Invalid choice. Please select a valid option."
+        ;;
+esac
