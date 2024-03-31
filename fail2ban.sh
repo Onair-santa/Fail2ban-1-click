@@ -90,8 +90,8 @@ echo
 clear
 echo "********************************"
 echo "  1-click Fail2Ban + Nftables      "
+echo "${yellow}* https://github.com/Onair-santa *${rest}"
 echo "********************************" 
-echo -e "${yellow}* https://github.com/Onair-santa *${rest}"
 echo ""
 echo -e "       ${green}Select an option${rest}: ${rest}"
 echo -e "${green}1. - ${green}Install Nftables+Fail2ban${rest}"
