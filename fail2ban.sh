@@ -112,10 +112,10 @@ echo
 
 # Menu
 clear
-echo "********************************"
-echo "  1-click Fail2Ban + Nftables      "
-echo "* https://github.com/Onair-santa *"
-echo "********************************" 
+echo "${cyan}********************************"
+echo "${green}  1-click Fail2Ban + Nftables      "
+echo "${green} https://github.com/Onair-santa "
+echo "${cyan}********************************" 
 echo ""
 echo -e "       ${green}Select an option${rest}: ${rest}"
 echo -e "${green}1. - ${green}Install Nftables+Fail2ban${rest}"
