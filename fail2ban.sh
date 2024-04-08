@@ -114,7 +114,6 @@ echo
 clear
 echo -e "${cyan}********************************${rest}"
 echo -e "${green}  1-click Fail2Ban + Nftables      ${rest}"
-echo -e "${green} https://github.com/Onair-santa ${rest}"
 echo -e "${cyan}********************************${rest}" 
 echo ""
 echo -e "       ${green}Select an option${rest}: ${rest}"
