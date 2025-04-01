@@ -1,4 +1,4 @@
-## <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>(Debian, Ubuntu) Fail2ban-1-click
+## <a href="#"><img src="https://github.com/vpnhood/VpnHood/wiki/images/logo-linux.png" width="32" height="32"></a>(Debian11, Ubuntu20) Fail2ban-1-click
 ### Fail2ban - the open-source security solution for youre server
 ###  Bash script installs Fail2ban and settings file, and installs nftables to block IP addresses
 ![image](https://github.com/Onair-santa/Fail2ban-1-click/assets/42511409/0d8d0f7e-4e6f-4d31-8d59-81049d15137a)
