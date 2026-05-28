@@ -72,7 +72,7 @@ yellow_msg 'Installing Fail2ban...'
 echo
 sleep 0.5
 
-wget https://ghfast.top/https://github.com/fail2ban/fail2ban/releases/download/1.0.2/fail2ban_1.0.2-1.upstream1_all.deb
+wget https://github.com/fail2ban/fail2ban/releases/download/1.0.2/fail2ban_1.0.2-1.upstream1_all.deb
 sudo dpkg -i fail2ban_1.0.2-1.upstream1_all.deb
 sleep 1
 cat >/etc/fail2ban/jail.local <<-'EOF'
